@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Joyal Joseph - Video Editing Portfolio">
+    <title>Joyal Joseph | Video Editor</title>
+    <!-- Fonts: Outfit for body, Patrick Hand for headers (Handwritten vibe) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Patrick+Hand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">JOYAL JOSEPH</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="video-background">
+            <video autoplay muted loop playsinline>
+                <source src="assets/projects.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="animate-text hand-font">Joyal Joseph</h1>
+            <p class="animate-text delay-1">Creative & Tech-Savvy Video Editor</p>
+            <a href="#work" class="cta-button animate-text delay-2">See My Work</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-wrapper">
+                        <div class="tilt-card">
+                            <img src="assets/me.png" alt="Joyal Joseph" class="about-photo">
+                            <div class="card-glow"></div>
+                        </div>
+                    </div>
+
+                    <div class="about-text">
+                        <h2 class="section-title hand-font">About Me</h2>
+                        <div class="bio-box">
+                            <p class="summary">Creative and tech-savvy individual with a strong foundation in video
+                                editing. Recently completed 12th grade with a passion for learning and applying new
+                                technologies.</p>
+                        </div>
+
+                        <div class="hobbies-container">
+                            <h3 class="hand-font">Hobbies</h3>
+                            <div class="hobby-tag">
+                                <span>🎻 Violinist & Music Enthusiast</span>
+                            </div>
+                        </div>
+
+                        <a href="assets/cv.pdf" target="_blank" class="download-button">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Skills Section based on CV structure -->
+        <section id="skills" class="section skills-section">
+            <!-- Curved divider top -->
+            <div class="curve-top"></div>
+
+            <div class="container">
+                <h2 class="section-title hand-font light-text">My Skills</h2>
+
+                <div class="skills-container">
+                    <!-- Text based approach to the "Mind Map" -->
+                    <div class="skill-category creative-skills">
+                        <h3 class="hand-font">Creative Skills</h3>
+                        <div class="tags-cloud">
+                            <span class="tag">Video Editing</span>
+                            <span class="tag">Motion Graphics</span>
+                            <span class="tag">Graphic Design</span>
+                            <span class="tag">Photography</span>
+                            <span class="tag">Color Grading</span>
+                            <span class="tag">CGI</span>
+                            <span class="tag">Storytelling</span>
+                            <span class="tag">Content Creation</span>
+                        </div>
+
+                        <h3 class="hand-font mt-4">Soft Skills</h3>
+                        <div class="tags-cloud soft">
+                            <span class="tag">Quick Learner</span>
+                            <span class="tag">Self-Motivated</span>
+                            <span class="tag">Communication</span>
+                            <span class="tag">Collaborative</span>
+                            <span class="tag">Adaptability</span>
+                            <span class="tag">Teamwork</span>
+                            <span class="tag">Problem-solving</span>
+                        </div>
+                    </div>
+
+                    <!-- Software Proficiency with bars -->
+                    <div class="skill-category software-skills">
+                        <h3 class="hand-font">Software</h3>
+                        <div class="software-list">
+                            <div class="software-item">
+                                <div class="sw-header">
+                                    <span class="sw-name">After Effects (Ae)</span>
+                                    <span class="percent">60%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="fill" style="width: 60%"></div>
+                                </div>
+                            </div>
+                            <div class="software-item">
+                                <div class="sw-header">
+                                    <span class="sw-name">Blender 3D</span>
+                                    <span class="percent">60%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="fill" style="width: 60%"></div>
+                                </div>
+                            </div>
+                            <div class="software-item">
+                                <div class="sw-header">
+                                    <span class="sw-name">Premiere Pro (Pr)</span>
+                                    <span class="percent">34%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="fill" style="width: 34%"></div>
+                                </div>
+                            </div>
+                            <div class="software-item">
+                                <div class="sw-header">
+                                    <span class="sw-name">Photoshop (Ps)</span>
+                                    <span class="percent">50%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="fill" style="width: 50%"></div>
+                                </div>
+                            </div>
+                            <div class="software-item">
+                                <div class="sw-header">
+                                    <span class="sw-name">DaVinci Resolve</span>
+                                    <span class="percent">20%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="fill" style="width: 20%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Curved divider bottom -->
+            <div class="curve-bottom"></div>
+        </section>
+
+        <section id="work" class="section work-section">
+            <h2 class="section-title hand-font">Selected Work</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="video-container">
+                        <video controls>
+                            <source src="assets/projects_showcase.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="project-info">
+                        <h3>Showcase Reel</h3>
+                        <p>A compilation of my best editing work, motion graphics, and color grading.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/yNArH3UZ49w"
+                            title="From Founder to Investor building, Real start-ups"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="project-info">
+                        <h3>Real Start-ups Podcast</h3>
+                        <p>Editing and post-production for Interview/Podcast content.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="video-container">
+                        <video controls>
+                            <source src="assets/project1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project One</h3>
+                        <p>Latest editing work featuring dynamic transitions and visual effects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title hand-font">Contact</h2>
+                <div class="contact-card">
+                    <a href="mailto:zoyqxl@gmail.com" class="contact-item">
+                        <span class="icon">📧</span>
+                        <span class="text">zoyqxl@gmail.com</span>
+                    </a>
+                    <a href="tel:8606694162" class="contact-item">
+                        <span class="icon">📞</span>
+                        <span class="text">860 669 4162</span>
+                    </a>
+                    <a href="https://instagram.com/was___u_p" target="_blank" class="contact-item">
+                        <span class="icon">📸</span>
+                        <span class="text">@was___u_p</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Joyal Joseph. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
